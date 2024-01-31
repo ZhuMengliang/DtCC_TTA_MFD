@@ -1,0 +1,10 @@
+optim_steps: 2
+model_episodic: False
+filter_K: 50 # for each class
+temp: 0.1
+alpha: 2
+contrastive_: 1.0
+neighbor_K: 5
+NA_: 1.0
+NA_kind: 1
+version: 'v2'

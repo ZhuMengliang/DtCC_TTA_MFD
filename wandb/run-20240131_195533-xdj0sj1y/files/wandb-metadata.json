@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2024-01-31T11:55:35.920226",
+    "startedAt": "2024-01-31T11:55:33.937012",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\Source_Code_Work\\TTA_MFD\\main_Tar.py",
+    "codePathLocal": "main_Tar.py",
+    "codePath": "main_Tar.py",
+    "host": "DESKTOP-R29BKU0",
+    "username": "mlzhu",
+    "executable": "D:\\P\\anaconda\\envs\\pytorch\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3600.0,
+        "min": 0.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.0,
+            "min": 0.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.5097618103027,
+            "used": 636.4371871948242
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2070 SUPER",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.950202941894531
+    }
+}

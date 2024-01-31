@@ -1,0 +1,14 @@
+
+tpython:S1542"URename function "Tsallis_entropy" to match the regular expression ^[a-z_][a-z0-9_]*$.(³‰¬8İ¬ÙòÕ1
+^python:S1244":Do not perform equality checks with floating point values.(ªÕÚİûÿÿÿÿ8İ¬ÙòÕ1
+mpython:S1542""IRename function "PCL" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÆÃ²­øÿÿÿÿ8€÷ƒôÕ1
+ypython:S117?"VRename this local variable "P_far" to match the regular expression ^[_a-z][a-z0-9_]*$.(¿©úÖüÿÿÿÿ8İ¬ÙòÕ1
+upython:S1177"WRename this local variable "P_near" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü‡§8İ¬ÙòÕ1
+zpython:S117@"\Rename this local variable "P_uncertain" to match the regular expression ^[_a-z][a-z0-9_]*$.(¦¿™å8İ¬ÙòÕ1
+ypython:S1173"VRename this parameter "neighbor_K" to match the regular expression ^[_a-z][a-z0-9_]*$.(ş§¯üÿÿÿÿ8İ¬ÙòÕ1
+mpython:S15423"IRename function "NCL" to match the regular expression ^[a-z_][a-z0-9_]*$.(ş§¯üÿÿÿÿ8ú°„ôÕ1
+rpython:S1542O"NRename function "Div_loss" to match the regular expression ^[a-z_][a-z0-9_]*$.(º§ÿÿÿÿÿ8İ¬ÙòÕ1
+Mpython:S1172U".Remove the unused function parameter "B_kind".(µŞ„Ò8„şïòÕ1
+ppython:S117U"RRename this parameter "B_kind" to match the regular expression ^[_a-z][a-z0-9_]*$.(µŞ„Ò8„şïòÕ1
+npython:S1542U"ORename function "Balance_P" to match the regular expression ^[a-z_][a-z0-9_]*$.(µŞ„Ò8İ¬ÙòÕ1
+vpython:S1542_"RRename function "getModelSize" to match the regular expression ^[a-z_][a-z0-9_]*$.(Î“à’øÿÿÿÿ8İ¬ÙòÕ1

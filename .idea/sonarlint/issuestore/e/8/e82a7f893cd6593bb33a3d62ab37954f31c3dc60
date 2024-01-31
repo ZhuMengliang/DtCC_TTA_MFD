@@ -1,0 +1,11 @@
+
+^python:S2208"GImport only needed names or import the module and then use its members.(ß‡šs
+ipython:S117"MRename this parameter "N" to match the regular expression ^[_a-z][a-z0-9_]*$.(žñÀ­üÿÿÿÿ
+lpython:S116\"PRename this field "source_N" to match the regular expression ^[_a-z][_a-z0-9]*$.(‡¨´€ýÿÿÿÿ
+gpython:S116]"PRename this field "target_N" to match the regular expression ^[_a-z][_a-z0-9]*$.(šÇñ‘
+kpython:S116Y"ORename this field "TL_kind" to match the regular expression ^[_a-z][_a-z0-9]*$.(ªÚÍùûÿÿÿÿ
+fpython:S116Z"ORename this field "TL_list" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÿŸÍÓ
+opython:S117W"SRename this parameter "TL_Task" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÁŽûçûÿÿÿÿ
+opython:S117W"SRename this parameter "TL_kind" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÁŽûçûÿÿÿÿ
+opython:S117W"SRename this parameter "TL_list" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÁŽûçûÿÿÿÿ
+;python:S125d"Remove this commented out code.(»ÒÔ¹üÿÿÿÿ

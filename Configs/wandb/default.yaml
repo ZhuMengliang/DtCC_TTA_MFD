@@ -1,0 +1,11 @@
+---
+setup:
+  project: "SFUDA_new"
+  entity: "bubble_"
+  mode: online
+  group: Training
+  reinit: True
+  save_code: True
+watch:
+  log: all
+  log_freq: 50

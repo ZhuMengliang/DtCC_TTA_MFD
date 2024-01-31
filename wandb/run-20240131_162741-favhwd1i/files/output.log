@@ -1,0 +1,8 @@
+
+[2024-01-31 16:28:03,110][root][INFO] - using 1 gpus
+Traceback (most recent call last):
+  File "D:\Source_Code_Work\TTA_MFD\main_Src.py", line 221, in run
+    Src.setup()
+  File "D:\Source_Code_Work\TTA_MFD\main_Src.py", line 58, in setup
+    = dataset(**cfg.Dataset).data_generator()
+TypeError: __init__() missing 2 required positional arguments: 'TL_kind' and 'seed_run'

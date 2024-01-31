@@ -1,0 +1,6 @@
+data_name: 'PU'
+data_path: "D:/P_new/PU_dataset" #"D:/Bubble_learning/PU_dataset"
+TL_list: [0, 1, 2]
+input_kind: 'fft' #'fft' 'time'
+norm_kind: 'mean-std'
+

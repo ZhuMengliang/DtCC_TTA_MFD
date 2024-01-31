@@ -1,0 +1,27 @@
+
+Cpython:S1481"+Replace unused local variable "C" with "_".(Œûë
+mpython:S1542("URename function "Tsallis_entropy" to match the regular expression ^[a-z_][a-z0-9_]*$.(³‰¬
+Wpython:S1244)":Do not perform equality checks with floating point values.(ªÕÚİûÿÿÿÿ
+Dpython:S11727"-Remove the unused function parameter "probs".(»Ù¹5
+spython:S1542;"VRename function "Contrastive_loss" to match the regular expression ^[a-z_][a-z0-9_]*$.(¢€›šüÿÿÿÿ
+hpython:S1854O"KRemove this assignment to local variable 'P_near'; the value is never used.(º³ç¦ûÿÿÿÿ
+ipython:S117K"SRename this parameter "NA_kind" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤ùë-
+rpython:S117g"VRename this local variable "P_far" to match the regular expression ^[_a-z][a-z0-9_]*$.(»«Œïüÿÿÿÿ
+spython:S117O"WRename this local variable "P_near" to match the regular expression ^[_a-z][a-z0-9_]*$.(º³ç¦ûÿÿÿÿ
+spython:S117h"\Rename this local variable "P_uncertain" to match the regular expression ^[_a-z][a-z0-9_]*$.(¦¿™å
+lpython:S117K"VRename this parameter "neighbor_K" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤ùë-
+hpython:S1542K"QRename function "NA_contrast" to match the regular expression ^[a-z_][a-z0-9_]*$.(¤ùë-
+;python:S125R"Remove this commented out code.(‹ñş×şÿÿÿÿ
+6python:S125V"Remove this commented out code.(ãË´¡
+ipython:S117v"SRename this parameter "NA_kind" to match the regular expression ^[_a-z][a-z0-9_]*$.(ı­Y
+spython:S117"VRename this local variable "P_far" to match the regular expression ^[_a-z][a-z0-9_]*$.(»«Œïüÿÿÿÿ
+npython:S117z"WRename this local variable "P_near" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü‡§
+tpython:S117"\Rename this local variable "P_uncertain" to match the regular expression ^[_a-z][a-z0-9_]*$.(¦¿™å
+lpython:S117v"VRename this parameter "neighbor_K" to match the regular expression ^[_a-z][a-z0-9_]*$.(ı­Y
+_python:S1542v"HRename function "NA" to match the regular expression ^[a-z_][a-z0-9_]*$.(ı­Y
+6python:S125}"Remove this commented out code.(ãË´¡
+lpython:S1542û"NRename function "Div_loss" to match the regular expression ^[a-z_][a-z0-9_]*$.(º§ÿÿÿÿÿ
+jpython:S117"RRename this parameter "B_kind" to match the regular expression ^[_a-z][a-z0-9_]*$.(µŞ„Ò
+hpython:S1542"ORename function "Balance_P" to match the regular expression ^[a-z_][a-z0-9_]*$.(µŞ„Ò
+ppython:S1542”"RRename function "getModelSize" to match the regular expression ^[a-z_][a-z0-9_]*$.(Î“à’øÿÿÿÿ
+<python:S2275 "#Fix this formatted string's syntax.(÷’åæ

@@ -1,0 +1,4 @@
+data_name: 'CWRU'
+data_path: "D:/P_new/CWRU_dataset" #"D:/Bubble_Dataset/CWRU_dataset"
+TL_list: [ 0,1,2,3 ]
+input_kind: 'fft'

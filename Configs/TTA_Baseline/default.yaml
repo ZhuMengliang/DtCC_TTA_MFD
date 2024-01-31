@@ -1,0 +1,14 @@
+steps: 2
+filter_K: 50
+d_margin: 0.05
+beta: 0.9
+reset_constant_em: 0.2
+
+# rotta
+nu: 0.001 # ema
+alpha: 0.05 # BN
+memory_size: 128
+lambda_t: 1.0
+lambda_u: 1.0
+update_frequency: 128
+e: 0.5

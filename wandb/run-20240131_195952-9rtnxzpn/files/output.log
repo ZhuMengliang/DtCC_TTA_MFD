@@ -1,0 +1,15 @@
+[2024-01-31 19:59:58,271][root][INFO] - using 1 gpus
+the PU data is ['KA04', 'KA15', 'KA16', 'KA22', 'KA30', 'KB23', 'KB24', 'KB27', 'KI14', 'KI17', 'KI21']
+the PU data is ['KA04', 'KA15', 'KA16', 'KA22', 'KA30', 'KB23', 'KB24', 'KB27', 'KI14', 'KI17', 'KI21']
+--------PU Dataset:(2, 0) TL Task---------
+the TTA infor is {'optim_steps': 2, 'model_episodic': False, 'filter_K': 50, 'temp': 1, 'alpha': 2, 'contrastive_': 1, 'neighbor_K': 5, 'NA_': 1, 'NA_kind': 4, 'version': 'v2', 'B_kind': 1}
+the input kind is fft,the model kind is ResNet18
+the opt infor is {'name': 'adamw', 'lr_src': 0.001, 'lr_tar': 0.01, 'lr_scheduler': 'fix', 'weight_decay_src': 0.0001, 'weight_decay_tar': 0.001}
+the data infor is {'data_name': 'PU', 'data_path': 'D:/P_new/PU_dataset', 'TL_list': [0, 1, 2], 'input_kind': 'fft', 'norm_kind': 'mean-std', 'TL_Task': [2, 0]}
+100%|██████████| 11/11 [00:00<00:00, 36.27it/s]
+100%|██████████| 11/11 [00:00<00:00, 36.03it/s]
+Task: [2, 0]: Beginning Acc T = 69.44%;
+[2024-01-31 20:00:00,490][urllib3.connectionpool][WARNING] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
+Model Size：2.542MB
+the ResNet8: modelsize 2.542MB flops 15633054.0 and params 666324.0
+Task: [2, 0], Epoch:1/1; Acc_tar/uncertain/certain = 86.21%/80.12%/97.71%;

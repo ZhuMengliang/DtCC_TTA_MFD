@@ -1,0 +1,17 @@
+
+fpython:S100`"JRename method "IT_gpu" to match the regular expression ^[a-z_][a-z0-9_]*$.(´ÂÝ¼ýÿÿÿÿ
+Ipython:S1481‚"+Remove the unused local variable "outputs".(´¦ð»ýÿÿÿÿ
+Tpython:S5754x"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+bpython:S100Ž"JRename method "IT_cpu" to match the regular expression ^[a-z_][a-z0-9_]*$.(ïÖû™
+Ipython:S1481¯"+Remove the unused local variable "outputs".(´¦ð»ýÿÿÿÿ
+Upython:S5754¥"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+mpython:S1854Á"ORemove this assignment to local variable 'list_range'; the value is never used.(Ì©š¿úÿÿÿÿ
+upython:S117Ò"XRename this local variable "TL_Task" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÄÁÈñùÿÿÿÿ
+zpython:S117½"]Rename this local variable "TL_Task_list" to match the regular expression ^[_a-z][a-z0-9_]*$.(°’Á•ýÿÿÿÿ
+Spython:S1244È":Do not perform equality checks with floating point values.(ì‡¥
+Xpython:S1244Ê":Do not perform equality checks with floating point values.(Ö²¡Ïúÿÿÿÿ
+Spython:S1244Ì":Do not perform equality checks with floating point values.(û¶ä°
+7python:S125Ü"Remove this commented out code.(€Ö›ß
+7python:S125Þ"Remove this commented out code.(àŽ½Ú
+7python:S125÷"Remove this commented out code.(¿¸¸
+<python:S125˜"Remove this commented out code.(Ð€’åþÿÿÿÿ

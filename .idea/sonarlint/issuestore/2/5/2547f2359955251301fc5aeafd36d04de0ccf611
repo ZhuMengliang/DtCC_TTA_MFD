@@ -1,0 +1,12 @@
+
+ƒpython:S101"eRename class "TTA_Trainer" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(ÅÀ–î8İ«ÕíÕ1
+=python:S125"Remove this commented out code.(ÇàÑÉ8Ş«ÕíÕ1
+€python:S117u"bRename this local variable "Acc_certain_meter" to match the regular expression ^[_a-z][a-z0-9_]*$.(’º±­8Ş«ÕíÕ1
+python:S117s"^Rename this local variable "Acc_tar_meter" to match the regular expression ^[_a-z][a-z0-9_]*$.(Æ ³¦øÿÿÿÿ8Ş«ÕíÕ1
+‡python:S117t"dRename this local variable "Acc_uncertain_meter" to match the regular expression ^[_a-z][a-z0-9_]*$.(™Òƒşÿÿÿÿ8Ş«ÕíÕ1
+kpython:S100["HRename method "OTMA" to match the regular expression ^[a-z_][a-z0-9_]*$.(ú‘øÿÿÿÿ8•‚ÜíÕ1
+Ypython:S1481j"5Replace unused local variable "param_names" with "_".(˜±±ùÿÿÿÿ8Ş«ÕíÕ1
+xpython:S3776["TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ú‘øÿÿÿÿ8ÁÊòÕ1
+[python:S5754{"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8Ş«ÕíÕ1
+|python:S117»"XRename this local variable "TL_Task" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÄÁÈñùÿÿÿÿ8Ş«ÕíÕ1
+python:S117´"]Rename this local variable "TL_Task_list" to match the regular expression ^[_a-z][a-z0-9_]*$.(°’Á•ıÿÿÿÿ8Ş«ÕíÕ1

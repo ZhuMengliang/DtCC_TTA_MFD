@@ -1,0 +1,6 @@
+model_name: 'ResNet18'
+bottleneck: True
+bottleneck_num: 128
+temp: 1
+model_type: 'linear'
+Dropout: True

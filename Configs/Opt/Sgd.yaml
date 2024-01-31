@@ -1,0 +1,14 @@
+name: 'sgd' # sgd
+lr_src : 1e-3
+lr_tar : 1e-3
+lr_scheduler: 'fix'
+weight_decay_src: 1e-4 # 一般是学习率的一半，小一个量级
+weight_decay_tar: 1e-4 # 一般是学习率的一半，小一个量级
+momentum: 0.9
+nesterov: True
+
+# 学习率的问题
+# 1e-2 for sgd
+gamma: 0.1
+step_list: [ 100,150 ]
+step_size: 50

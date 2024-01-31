@@ -1,0 +1,14 @@
+
+†python:S101"hRename class "Source_Trainer" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(½¼—Œ8—„«êÕ1
+ypython:S117o"VRename this local variable "Y_pre" to match the regular expression ^[_a-z][a-z0-9_]*$.(†Şåÿÿÿÿÿ8˜„«êÕ1
+|python:S117U"YRename this local variable "model_PR" to match the regular expression ^[_a-z][a-z0-9_]*$.(¡ÿàøüÿÿÿÿ8×¼¸êÕ1
+cpython:S100P"GRename method "SMT" to match the regular expression ^[a-z_][a-z0-9_]*$.(í×)8˜„«êÕ1
+qpython:S3776P"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(í×)8˜„«êÕ1
+[python:S5754e"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8˜„«êÕ1
+fpython:S100"GRename method "SMP" to match the regular expression ^[a-z_][a-z0-9_]*$.(óÜ˜¥8˜„«êÕ1
+Wpython:S1481«"2Replace unused local variable "cfg_mask" with "_".(ƒ£ïıÿÿÿÿ8˜„«êÕ1
+spython:S1854¸"NRemove this assignment to local variable 'seed_list'; the value is never used.(Ó÷üâüÿÿÿÿ8ÄÉ…õÕ1
+spython:S117Ü"TRename this local variable "Src" to match the regular expression ^[_a-z][a-z0-9_]*$.(’æô8˜„«êÕ1
+|python:S117»"XRename this local variable "TL_Task" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÄÁÈñùÿÿÿÿ8˜„«êÕ1
+python:S117³"]Rename this local variable "TL_Task_list" to match the regular expression ^[_a-z][a-z0-9_]*$.(°’Á•ıÿÿÿÿ8˜„«êÕ1
+>python:S125Ì"Remove this commented out code.(˜á¨¾8˜„«êÕ1

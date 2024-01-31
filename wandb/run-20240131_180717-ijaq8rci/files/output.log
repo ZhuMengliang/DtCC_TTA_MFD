@@ -1,0 +1,84 @@
+100%|██████████| 11/11 [00:00<00:00, 35.38it/s]
+100%|██████████| 11/11 [00:00<00:00, 36.76it/s]
+[2024-01-31 18:07:23,692][root][INFO] - using 1 gpus
+the PU data is ['KA04', 'KA15', 'KA16', 'KA22', 'KA30', 'KB23', 'KB24', 'KB27', 'KI14', 'KI17', 'KI21']
+the PU data is ['KA04', 'KA15', 'KA16', 'KA22', 'KA30', 'KB23', 'KB24', 'KB27', 'KI14', 'KI17', 'KI21']
+--------PU Dataset:(0, 2) TL Task---------
+the input kind is fft,the model kind is ResNet18
+the opt infor is {'name': 'adamw', 'lr_src': 0.001, 'lr_tar': 0.001, 'lr_scheduler': 'designed', 'weight_decay_src': 0.0001, 'weight_decay_tar': 0.0001}
+the data infor is {'data_name': 'PU', 'data_path': 'D:/P_new/PU_dataset', 'TL_list': [0, 1, 2], 'input_kind': 'fft', 'norm_kind': 'mean-std', 'TL_Task': [0, 2]}
+[2024-01-31 18:07:26,723][urllib3.connectionpool][WARNING] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
+the initial accc is 79.24
+layer index: 2 	 total channel: 64 	 remaining channel: 58
+layer index: 8 	 total channel: 64 	 remaining channel: 52
+layer index: 11 	 total channel: 64 	 remaining channel: 51
+layer index: 14 	 total channel: 64 	 remaining channel: 54
+layer index: 17 	 total channel: 64 	 remaining channel: 55
+layer index: 21 	 total channel: 128 	 remaining channel: 101
+layer index: 24 	 total channel: 128 	 remaining channel: 105
+layer index: 30 	 total channel: 128 	 remaining channel: 103
+layer index: 33 	 total channel: 128 	 remaining channel: 104
+layer index: 37 	 total channel: 256 	 remaining channel: 214
+layer index: 40 	 total channel: 256 	 remaining channel: 218
+layer index: 46 	 total channel: 256 	 remaining channel: 201
+layer index: 49 	 total channel: 256 	 remaining channel: 199
+layer index: 53 	 total channel: 512 	 remaining channel: 389
+layer index: 56 	 total channel: 512 	 remaining channel: 404
+layer index: 62 	 total channel: 512 	 remaining channel: 400
+layer index: 65 	 total channel: 512 	 remaining channel: 409
+the prune ratio is 16.40 and the acc_t is 9.12
+[2024-01-31 18:07:37,100][urllib3.connectionpool][WARNING] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
+Task: [0, 2], Iter:1/50; Accuracy_S/T = 77.86%/ 57.25%; Loss= 1.32
+[2024-01-31 18:07:47,510][urllib3.connectionpool][WARNING] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
+Task: [0, 2], Iter:2/50; Accuracy_S/T = 99.71%/ 77.57%; Loss= 0.74
+[2024-01-31 18:08:08,278][urllib3.connectionpool][WARNING] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
+Task: [0, 2], Iter:3/50; Accuracy_S/T = 99.93%/ 71.28%; Loss= 0.63
+Task: [0, 2], Iter:4/50; Accuracy_S/T = 99.02%/ 77.83%; Loss= 0.63
+[2024-01-31 18:08:18,737][urllib3.connectionpool][WARNING] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
+Task: [0, 2], Iter:5/50; Accuracy_S/T = 99.96%/ 69.79%; Loss= 0.63
+[2024-01-31 18:08:29,160][urllib3.connectionpool][WARNING] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
+Task: [0, 2], Iter:6/50; Accuracy_S/T = 98.22%/ 68.85%; Loss= 0.61
+Task: [0, 2], Iter:7/50; Accuracy_S/T = 100.00%/ 73.50%; Loss= 0.61
+Task: [0, 2], Iter:8/50; Accuracy_S/T = 100.00%/ 80.84%; Loss= 0.62
+Task: [0, 2], Iter:9/50; Accuracy_S/T = 100.00%/ 78.15%; Loss= 0.59
+Task: [0, 2], Iter:10/50; Accuracy_S/T = 100.00%/ 78.41%; Loss= 0.60
+Task: [0, 2], Iter:11/50; Accuracy_S/T = 100.00%/ 75.17%; Loss= 0.60
+Task: [0, 2], Iter:12/50; Accuracy_S/T = 100.00%/ 78.04%; Loss= 0.60
+Task: [0, 2], Iter:13/50; Accuracy_S/T = 99.96%/ 77.10%; Loss= 0.61
+Task: [0, 2], Iter:14/50; Accuracy_S/T = 99.96%/ 80.15%; Loss= 0.58
+Task: [0, 2], Iter:15/50; Accuracy_S/T = 100.00%/ 80.63%; Loss= 0.58
+Task: [0, 2], Iter:16/50; Accuracy_S/T = 100.00%/ 78.44%; Loss= 0.57
+Task: [0, 2], Iter:17/50; Accuracy_S/T = 100.00%/ 77.57%; Loss= 0.59
+Task: [0, 2], Iter:18/50; Accuracy_S/T = 100.00%/ 79.43%; Loss= 0.57
+Task: [0, 2], Iter:19/50; Accuracy_S/T = 100.00%/ 79.17%; Loss= 0.57
+Task: [0, 2], Iter:20/50; Accuracy_S/T = 100.00%/ 76.55%; Loss= 0.57
+Task: [0, 2], Iter:21/50; Accuracy_S/T = 100.00%/ 75.86%; Loss= 0.57
+Task: [0, 2], Iter:22/50; Accuracy_S/T = 100.00%/ 77.35%; Loss= 0.57
+Task: [0, 2], Iter:23/50; Accuracy_S/T = 99.96%/ 74.99%; Loss= 0.58
+Task: [0, 2], Iter:24/50; Accuracy_S/T = 100.00%/ 80.44%; Loss= 0.57
+Task: [0, 2], Iter:25/50; Accuracy_S/T = 100.00%/ 78.52%; Loss= 0.57
+Task: [0, 2], Iter:26/50; Accuracy_S/T = 100.00%/ 77.10%; Loss= 0.57
+Task: [0, 2], Iter:27/50; Accuracy_S/T = 100.00%/ 77.06%; Loss= 0.56
+Task: [0, 2], Iter:28/50; Accuracy_S/T = 100.00%/ 78.01%; Loss= 0.57
+Task: [0, 2], Iter:29/50; Accuracy_S/T = 100.00%/ 77.79%; Loss= 0.56
+Task: [0, 2], Iter:30/50; Accuracy_S/T = 100.00%/ 75.35%; Loss= 0.57
+Task: [0, 2], Iter:31/50; Accuracy_S/T = 99.96%/ 79.17%; Loss= 0.57
+Task: [0, 2], Iter:32/50; Accuracy_S/T = 100.00%/ 76.88%; Loss= 0.57
+Task: [0, 2], Iter:33/50; Accuracy_S/T = 100.00%/ 79.43%; Loss= 0.57
+Task: [0, 2], Iter:34/50; Accuracy_S/T = 100.00%/ 79.57%; Loss= 0.56
+Task: [0, 2], Iter:35/50; Accuracy_S/T = 100.00%/ 77.75%; Loss= 0.56
+Task: [0, 2], Iter:36/50; Accuracy_S/T = 100.00%/ 77.46%; Loss= 0.56
+Task: [0, 2], Iter:37/50; Accuracy_S/T = 100.00%/ 78.19%; Loss= 0.56
+Task: [0, 2], Iter:38/50; Accuracy_S/T = 100.00%/ 77.17%; Loss= 0.56
+Task: [0, 2], Iter:39/50; Accuracy_S/T = 100.00%/ 77.97%; Loss= 0.58
+Task: [0, 2], Iter:40/50; Accuracy_S/T = 100.00%/ 79.17%; Loss= 0.57
+Task: [0, 2], Iter:41/50; Accuracy_S/T = 100.00%/ 77.32%; Loss= 0.57
+Task: [0, 2], Iter:42/50; Accuracy_S/T = 100.00%/ 75.86%; Loss= 0.56
+Task: [0, 2], Iter:43/50; Accuracy_S/T = 100.00%/ 77.24%; Loss= 0.57
+Task: [0, 2], Iter:44/50; Accuracy_S/T = 100.00%/ 77.75%; Loss= 0.56
+Task: [0, 2], Iter:45/50; Accuracy_S/T = 100.00%/ 79.39%; Loss= 0.57
+Task: [0, 2], Iter:46/50; Accuracy_S/T = 100.00%/ 77.83%; Loss= 0.56
+Task: [0, 2], Iter:47/50; Accuracy_S/T = 100.00%/ 77.79%; Loss= 0.56
+Task: [0, 2], Iter:48/50; Accuracy_S/T = 100.00%/ 80.08%; Loss= 0.56
+Task: [0, 2], Iter:49/50; Accuracy_S/T = 100.00%/ 79.13%; Loss= 0.56
+Task: [0, 2], Iter:50/50; Accuracy_S/T = 100.00%/ 78.63%; Loss= 0.56

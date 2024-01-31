@@ -1,0 +1,182 @@
+wandb_version: 1
+
+batch_size:
+  desc: null
+  value: 128
+num_workers:
+  desc: null
+  value: 0
+norm_kind:
+  desc: null
+  value: mean-std
+train_epoch:
+  desc: null
+  value: 1
+tar_epoch:
+  desc: null
+  value: 1
+src_epoch:
+  desc: null
+  value: 50
+seed:
+  desc: null
+  value: 2020
+gpu_id:
+  desc: null
+  value: '0'
+process_wandb:
+  desc: null
+  value: true
+verbose:
+  desc: null
+  value: true
+PR:
+  desc: null
+  value: 0.4
+wandb:
+  desc: null
+  value:
+    setup:
+      project: TTA_tar_PU
+      entity: bubble_
+      mode: online
+      group: 01-31 19:55fft_ResNet18_0.4adamw_lr_0.01_BS_128_v2filter_K50_alpha_2_NK_5
+      reinit: true
+      save_code: true
+      name: (2, 0)Task_2025
+    watch:
+      log: all
+      log_freq: 50
+Model:
+  desc: null
+  value:
+    model_name: ResNet18
+    bottleneck: true
+    bottleneck_num: 128
+    temp: 1
+    model_type: linear
+    Dropout: true
+Opt:
+  desc: null
+  value:
+    name: adamw
+    lr_src: 0.001
+    lr_tar: 0.01
+    lr_scheduler: fix
+    weight_decay_src: 0.0001
+    weight_decay_tar: 0.001
+Dataset:
+  desc: null
+  value:
+    data_name: PU
+    data_path: D:/P_new/PU_dataset
+    TL_list:
+    - 0
+    - 1
+    - 2
+    input_kind: fft
+    norm_kind: mean-std
+    TL_Task:
+    - 2
+    - 0
+TTA:
+  desc: null
+  value:
+    optim_steps: 2
+    model_episodic: false
+    filter_K: 50
+    temp: 1
+    alpha: 2
+    contrastive_: 1
+    neighbor_K: 5
+    NA_: 1
+    NA_kind: 4
+    version: v2
+    B_kind: 1
+TTA_Baseline:
+  desc: null
+  value:
+    steps: 2
+    filter_K: 50
+    d_margin: 0.05
+    beta: 0.9
+    reset_constant_em: 0.2
+    nu: 0.001
+    alpha: 0.05
+    memory_size: 128
+    lambda_t: 1.0
+    lambda_u: 1.0
+    update_frequency: 128
+    e: 0.5
+train_time:
+  desc: null
+  value: 01-31 19:55
+seed_run:
+  desc: null
+  value: 2025
+model_episodic:
+  desc: null
+  value: false
+model_name:
+  desc: null
+  value: 0.4_ResNet182025fft_Linear.pt
+save_model_path:
+  desc: null
+  value: .\TTA_Model
+model_path:
+  desc: null
+  value: TTA_Model\PU0.001\[1, 2]_Task
+model_txt:
+  desc: null
+  value: TTA_Model\PU0.001\[1, 2]_Task\0.4_ResNet182025fft_Linear.txt
+cfg_model:
+  desc: null
+  value:
+  - 36
+  - 37
+  - 37
+  - 39
+  - 34
+  - 82
+  - 82
+  - 84
+  - 86
+  - 175
+  - 170
+  - 172
+  - 156
+  - 326
+  - 299
+  - 279
+  - 258
+_wandb:
+  desc: null
+  value:
+    code_path: code/main_Tar.py
+    python_version: 3.8.13
+    cli_version: 0.16.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1706702204.736269
+    t:
+      1:
+      - 1
+      - 50
+      - 55
+      2:
+      - 1
+      - 50
+      - 55
+      3:
+      - 2
+      - 13
+      - 16
+      - 23
+      4: 3.8.13
+      5: 0.16.0
+      8:
+      - 3
+      - 5
+      - 13
+      13: windows-amd64

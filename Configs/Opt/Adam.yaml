@@ -1,0 +1,4 @@
+name: 'adam' # sgd
+lr_src : 1e-3
+lr_tar : 1e-3
+lr_scheduler: 'fix'

@@ -1,0 +1,22 @@
+
+Cpython:S1481"+Replace unused local variable "C" with "_".(Œûë
+mpython:S1542("URename function "Tsallis_entropy" to match the regular expression ^[a-z_][a-z0-9_]*$.(³‰¬
+Wpython:S1244)":Do not perform equality checks with floating point values.(ªÕÚİûÿÿÿÿ
+Dpython:S11728"-Remove the unused function parameter "probs".(»Ù¹5
+npython:S1542<"VRename function "Contrastive_loss" to match the regular expression ^[a-z_][a-z0-9_]*$.(ë´áÖ
+ipython:S117L"SRename this parameter "NA_kind" to match the regular expression ^[_a-z][a-z0-9_]*$.(ı­Y
+lpython:S117d"VRename this local variable "P_far" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ò™Ì0
+npython:S117P"WRename this local variable "P_near" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü‡§
+spython:S117e"\Rename this local variable "P_uncertain" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤ÁõÈ
+lpython:S117L"VRename this parameter "neighbor_K" to match the regular expression ^[_a-z][a-z0-9_]*$.(ı­Y
+_python:S1542L"HRename function "NA" to match the regular expression ^[a-z_][a-z0-9_]*$.(ı­Y
+6python:S125S"Remove this commented out code.(ãË´¡
+jpython:S117v"SRename this parameter "NA_kind" to match the regular expression ^[_a-z][a-z0-9_]*$.(òÑ¿
+npython:S117ˆ"VRename this local variable "P_far" to match the regular expression ^[_a-z][a-z0-9_]*$.(ø¦‹
+npython:S117}"WRename this local variable "P_near" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü‡§
+tpython:S117‰"\Rename this local variable "P_uncertain" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤ÁõÈ
+mpython:S117v"VRename this parameter "neighbor_K" to match the regular expression ^[_a-z][a-z0-9_]*$.(òÑ¿
+cpython:S1542v"KRename function "NA_v1" to match the regular expression ^[a-z_][a-z0-9_]*$.(òÑ¿
+7python:S125†"Remove this commented out code.(ãË´¡
+lpython:S1542õ"NRename function "Div_loss" to match the regular expression ^[a-z_][a-z0-9_]*$.(º§ÿÿÿÿÿ
+gpython:S1542û"ORename function "Balance_P" to match the regular expression ^[a-z_][a-z0-9_]*$.(ˆ™|

@@ -1,0 +1,18 @@
+
+ipython:S117"RRename this parameter "B_kind" to match the regular expression ^[_a-z][a-z0-9_]*$.(”Î©æ
+fpython:S117"ORename this parameter "NA_" to match the regular expression ^[_a-z][a-z0-9_]*$.(”Î©æ
+jpython:S117"SRename this parameter "NA_kind" to match the regular expression ^[_a-z][a-z0-9_]*$.(”Î©æ
+ppython:S117"TRename this parameter "filter_K" to match the regular expression ^[_a-z][a-z0-9_]*$.(Œ«þþýÿÿÿÿ
+rpython:S117"VRename this parameter "neighbor_K" to match the regular expression ^[_a-z][a-z0-9_]*$.(Œ«þþýÿÿÿÿ
+ipython:S107"MMethod "__init__" has 14 parameters, which is greater than the 13 authorized.(Ò›¥Ðøÿÿÿÿ
+Tpython:S5754`"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+jpython:S1854š"LRemove this assignment to local variable 'entropy'; the value is never used.(ƒ×£šþÿÿÿÿ
+Lpython:S1481v"/Remove the unused local variable "y_uncertain".(”’Ø«þÿÿÿÿ
+Gpython:S1481}"/Remove the unused local variable "e_uncertain".(™œ¬«
+6python:S125r"Remove this commented out code.(ÕÞþû
+7python:S125‚"Remove this commented out code.(¸ÏÙè
+<python:S125¡"Remove this commented out code.(´˜Ö½øÿÿÿÿ
+<python:S125Ã"Remove this commented out code.(ôäàâùÿÿÿÿ
+jpython:S1854Ï"LRemove this assignment to local variable 'indices'; the value is never used.(™µ­Ôøÿÿÿÿ
+qpython:S117Í"YRename this local variable "filter_K" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ê„éÞ
+Vpython:S112à">Replace this generic exception class with a more specific one.(ÆÐ—ß

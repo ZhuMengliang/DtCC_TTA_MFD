@@ -1,0 +1,6 @@
+
+jpython:S117"SRename this parameter "Dropout" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ç†ã„
+kpython:S117'"ORename this parameter "GRL" to match the regular expression ^[_a-z][a-z0-9_]*$.(œØÚ›øÿÿÿÿ
+Epython:S1940*"-Use the opposite operator ("not in") instead.(Á¸ÿê
+…python:S1013"iRename class "Dist_Classifier" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(Ôî¿åûÿÿÿÿ
+kpython:S117O"ORename this parameter "GRL" to match the regular expression ^[_a-z][a-z0-9_]*$.(œØÚ›øÿÿÿÿ

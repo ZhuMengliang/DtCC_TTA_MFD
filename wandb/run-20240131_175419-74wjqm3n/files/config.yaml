@@ -1,0 +1,146 @@
+wandb_version: 1
+
+batch_size:
+  desc: null
+  value: 64
+num_workers:
+  desc: null
+  value: 0
+norm_kind:
+  desc: null
+  value: mean-std
+train_epoch:
+  desc: null
+  value: 1
+tar_epoch:
+  desc: null
+  value: 1
+src_epoch:
+  desc: null
+  value: 50
+seed:
+  desc: null
+  value: 2020
+gpu_id:
+  desc: null
+  value: '0'
+process_wandb:
+  desc: null
+  value: true
+verbose:
+  desc: null
+  value: true
+PR:
+  desc: null
+  value: 0
+wandb:
+  desc: null
+  value:
+    setup:
+      project: SFUDA_new
+      entity: bubble_
+      mode: online
+      group: Training
+      reinit: true
+      save_code: true
+      name: (0, 1)Task_2025
+    watch:
+      log: all
+      log_freq: 50
+Model:
+  desc: null
+  value:
+    model_name: ResNet18
+    bottleneck: true
+    bottleneck_num: 128
+    temp: 1
+    model_type: linear
+    Dropout: true
+Opt:
+  desc: null
+  value:
+    name: adamw
+    lr_src: 0.001
+    lr_tar: 0.001
+    lr_scheduler: fix
+    weight_decay_src: 0.0001
+    weight_decay_tar: 0.0001
+Dataset:
+  desc: null
+  value:
+    data_name: PU
+    data_path: D:/P_new/PU_dataset
+    TL_list:
+    - 0
+    - 1
+    - 2
+    input_kind: fft
+    norm_kind: mean-std
+    TL_Task:
+    - 0
+    - 1
+TTA:
+  desc: null
+  value:
+    optim_steps: 2
+    model_episodic: false
+    filter_K: 50
+    temp: 0.1
+    alpha: 2
+    contrastive_: 1.0
+    neighbor_K: 5
+    NA_: 1.0
+    NA_kind: 1
+    version: v2
+TTA_Baseline:
+  desc: null
+  value:
+    steps: 2
+    filter_K: 50
+    d_margin: 0.05
+    beta: 0.9
+    reset_constant_em: 0.2
+    nu: 0.001
+    alpha: 0.05
+    memory_size: 128
+    lambda_t: 1.0
+    lambda_u: 1.0
+    update_frequency: 128
+    e: 0.5
+train_time:
+  desc: null
+  value: 01-31 17:54
+seed_run:
+  desc: null
+  value: 2025
+_wandb:
+  desc: null
+  value:
+    code_path: code/main_Tar.py
+    python_version: 3.8.13
+    cli_version: 0.16.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1706694859.552559
+    t:
+      1:
+      - 1
+      - 50
+      - 55
+      2:
+      - 1
+      - 50
+      - 55
+      3:
+      - 2
+      - 13
+      - 16
+      - 23
+      4: 3.8.13
+      5: 0.16.0
+      8:
+      - 3
+      - 5
+      - 13
+      13: windows-amd64

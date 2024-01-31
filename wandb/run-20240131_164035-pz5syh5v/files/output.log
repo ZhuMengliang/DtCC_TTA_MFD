@@ -1,0 +1,21 @@
+100%|██████████| 11/11 [00:01<00:00,  8.59it/s]
+ 27%|██▋       | 3/11 [00:00<00:00, 10.76it/s]
+[2024-01-31 16:40:41,420][root][INFO] - using 1 gpus
+the PU data is ['KA04', 'KA15', 'KA16', 'KA22', 'KA30', 'KB23', 'KB24', 'KB27', 'KI14', 'KI17', 'KI21']
+100%|██████████| 11/11 [00:01<00:00, 10.04it/s]
+Traceback (most recent call last):
+  File "D:\Source_Code_Work\TTA_MFD\main_Src.py", line 232, in run
+    Src.SMP()
+  File "D:\Source_Code_Work\TTA_MFD\main_Src.py", line 164, in SMP
+    model_src.load_state_dict(torch.load(Path(cfg.model_path) / cfg.model_name))
+  File "D:\P\anaconda\envs\pytorch\lib\site-packages\torch\serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "D:\P\anaconda\envs\pytorch\lib\site-packages\torch\serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "D:\P\anaconda\envs\pytorch\lib\site-packages\torch\serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'TTA_Model\\PU0.001\\[0, 1]_Task\\ResNet182025fft_Linear.pt'
+--------PU Dataset:(0, 1) TL Task---------
+the input kind is fft,the model kind is ResNet18
+the opt infor is {'name': 'adamw', 'lr_src': 0.001, 'lr_tar': 0.001, 'lr_scheduler': 'designed', 'weight_decay_src': 0.0001, 'weight_decay_tar': 0.0001}
+the data infor is {'data_name': 'PU', 'data_path': 'D:/P_new/PU_dataset', 'TL_list': [0, 1, 2], 'input_kind': 'fft', 'norm_kind': 'mean-std', 'TL_Task': [0, 1]}

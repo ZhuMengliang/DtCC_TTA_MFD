@@ -1,0 +1,12 @@
+
+upython:S1192D"XDefine a constant instead of duplicating this literal "optimizer not implement" 4 times.(¾‡¨Øùÿÿÿÿ
+Fpython:S1172".Remove the unused function parameter "kwargs".(ä’£
+jpython:S117"SRename this parameter "Dropout" to match the regular expression ^[_a-z][a-z0-9_]*$.(ä’£
+qpython:S117"URename this local variable "netB" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ï¿‚¡øÿÿÿÿ
+qpython:S117"URename this local variable "netC" to match the regular expression ^[_a-z][a-z0-9_]*$.(²¨òÉþÿÿÿÿ
+qpython:S117"URename this local variable "netF" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ñ­ÕÛüÿÿÿÿ
+hpython:S117"QRename this parameter "net_F" to match the regular expression ^[_a-z][a-z0-9_]*$.(ä’£
+Zpython:S112D">Replace this generic exception class with a more specific one.(¾‡¨Øùÿÿÿÿ
+Zpython:S112Y">Replace this generic exception class with a more specific one.(¾‡¨Øùÿÿÿÿ
+Zpython:S112t">Replace this generic exception class with a more specific one.(¾‡¨Øùÿÿÿÿ
+[python:S112‰">Replace this generic exception class with a more specific one.(¾‡¨Øùÿÿÿÿ

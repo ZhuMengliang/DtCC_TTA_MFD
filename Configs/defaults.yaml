@@ -1,0 +1,28 @@
+defaults:
+  - _self_
+  - wandb: default
+  #  - logger: wandb_logger
+  - Model: ResNet18 # CNN #ResNet # python XX.py Model=CNN Model.XXX=XXX
+  - Opt: Adamw # Adamw Adam Sgd
+  - Dataset: PU # CWRU # PU # Gear
+  - TTA: default
+  - TTA_Baseline: default
+
+## training
+batch_size: 64
+num_workers: 0
+norm_kind: "mean-std" # "0-1","-1-1","mean-std"
+train_epoch: 1
+tar_epoch: 1
+src_epoch: 50
+seed: 2020
+gpu_id: '0'
+process_wandb: True
+verbose: True
+PR: 0
+
+
+
+
+
+

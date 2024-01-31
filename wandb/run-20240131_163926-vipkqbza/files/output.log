@@ -1,0 +1,28 @@
+[2024-01-31 16:39:33,394][root][INFO] - using 1 gpus
+the PU data is ['KA04', 'KA15', 'KA16', 'KA22', 'KA30', 'KB23', 'KB24', 'KB27', 'KI14', 'KI17', 'KI21']
+  0%|          | 0/11 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\P\anaconda\envs\pytorch\lib\site-packages\scipy\io\matlab\mio.py", line 39, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\u2029_new\u2029U_dataset\\KA04\\N15_M07_F10_KA04_1.mat'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "D:\Source_Code_Work\TTA_MFD\main_Src.py", line 221, in run
+    Src.setup()
+  File "D:\Source_Code_Work\TTA_MFD\main_Src.py", line 58, in setup
+    = dataset(**cfg.Dataset).data_generator()
+  File "D:\Source_Code_Work\TTA_MFD\Dataset\PU.py", line 115, in data_generator
+    list_data = get_files(self.data_path, self.source_N, self.input_kind)
+  File "D:\Source_Code_Work\TTA_MFD\Dataset\PU.py", line 35, in get_files
+    data3, lab3 = data_load(path3, name=name3, label=label3[k], input_kind=input_kind)
+  File "D:\Source_Code_Work\TTA_MFD\Dataset\PU.py", line 63, in data_load
+    fl = loadmat(filename)[name]
+  File "D:\P\anaconda\envs\pytorch\lib\site-packages\scipy\io\matlab\mio.py", line 224, in loadmat
+    with _open_file_context(file_name, appendmat) as f:
+  File "D:\P\anaconda\envs\pytorch\lib\contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "D:\P\anaconda\envs\pytorch\lib\site-packages\scipy\io\matlab\mio.py", line 17, in _open_file_context
+    f, opened = _open_file(file_like, appendmat, mode)
+  File "D:\P\anaconda\envs\pytorch\lib\site-packages\scipy\io\matlab\mio.py", line 45, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\u2029_new\u2029U_dataset\\KA04\\N15_M07_F10_KA04_1.mat'
