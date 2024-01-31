@@ -4,4 +4,4 @@
 submitted to **Advanced Engineering Informatics** journal, under review.  
 
 ### Contact
-- [mlzhu@hust.edu.cn](mailto:mlzhu@hust.edu.cn)
+* [mlzhu@hust.edu.cn](mailto:mlzhu@hust.edu.cn)
