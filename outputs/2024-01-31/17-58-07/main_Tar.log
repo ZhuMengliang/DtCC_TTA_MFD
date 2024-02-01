@@ -1,6 +1,0 @@
-[2024-01-31 17:58:16,549][root][INFO] - using 1 gpus
-[2024-01-31 17:58:49,904][root][INFO] - using 1 gpus
-[2024-01-31 17:58:52,130][urllib3.connectionpool][WARNING] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
-[2024-01-31 17:59:02,576][urllib3.connectionpool][WARNING] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
-[2024-01-31 17:59:13,005][urllib3.connectionpool][WARNING] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /api/4504800232407040/envelope/
-[2024-01-31 17:59:21,904][root][INFO] - using 1 gpus
